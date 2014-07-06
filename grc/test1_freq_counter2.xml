@@ -1,0 +1,37 @@
+<block>
+  <name>Freq counter2</name>
+  <key>test1_freq_counter2</key>
+  <category>test1</category>
+  <import>import test1</import>
+  <make>test1.freq_counter2($samp_rate, $threshold)</make>
+  
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Threshold</name>
+    <key>threshold</key>
+    <value>0.1</value>
+    <type>float</type>
+  </param>
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+
+  <doc>
+Threshold is usually 10% of the signal amplitude.  
+Threshold is needed to avoid wrong result when the voltage fluctuate around 0 due to noise.
+  </doc>
+    
+</block>

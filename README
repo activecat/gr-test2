@@ -1,0 +1,25 @@
+Author:  Activecat
+Purpose: Out-of-tree module of gnuradio
+GNU Radio Version: v3.7.4git-330-gad799cfe
+
+
+Custom blocks available in this module:
+
+1).  "pulse1" (source block) for demonstrating how to use "Sample Rate" in out-of-tree module.
+     Refer examples/flowgraph_01.grc and flowgraph_02.grc
+
+     This is for answering question at http://gnuradio.4.n7.nabble.com/sampling-rate-of-a-customized-signal-source-td48649.html
+
+
+2).  "freq_counter2" (sync block) for counting frequency of incoming signal.
+     Refer examples/flowgraph_08.grc.
+
+     This is for answering question at http://gnuradio.4.n7.nabble.com/Frequency-Counter-td47952.html
+
+
+3).  "freq_counter1" (general block) for counting frequency of incoming signal.
+     Refer examples/flowgraph_07.grc
+
+     This is for answering question at http://gnuradio.4.n7.nabble.com/Scheduling-a-block-even-with-no-input-items-RE-Flow-graph-blocking-when-doing-2x1-transmission-td48719.html
+
+4).  "streamer1" block is an implementation of idea proposed at http://lists.gnu.org/archive/html/discuss-gnuradio/2014-06/msg00047.html

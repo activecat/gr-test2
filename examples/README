@@ -1,0 +1,21 @@
+The files above are used for:
+
+
+ flowgraph_01.grc:  "pulse1" (source block) generating two 1ms pulse every 10ms. 
+
+ flowgraph_02.grc:  "pulse1" (source block) generating two 1ms pulse every 10ms. 
+
+ flowgraph_03.grc:  "freq_counter2" (sync block) output to GUI Scope Sink and GUI Number Sink.
+
+ flowgraph_04.grc:  "freq_counter2" (sync block) output to GUI Scope Sink and GUI Number Sink.
+
+ flowgraph_05.grc:  "freq_counter2" (sync block) getting input from USRP (UHD Source).
+
+ flowgraph_06.grc:  "freq_counter2" (sync block) output to GUI Scope Sink and GUI Number Sink.
+
+ flowgraph_07.grc:  "freq_counter1" (general block) output to "float sink".
+
+ flowgraph_08.grc:  "freq_counter2" (sync block) output to GUI Number Sink.
+
+ flowgraph_09.grc:  "streamer1" (general block) to test out the idea at http://lists.gnu.org/archive/html/discuss-gnuradio/2014-06/msg00047.html
+

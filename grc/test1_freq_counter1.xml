@@ -1,0 +1,36 @@
+<block>
+  <name>Freq counter1</name>
+  <key>test1_freq_counter1</key>
+  <category>test1</category>
+  <import>import test1</import>
+  <make>test1.freq_counter1($samp_rate, $threshold, $estimated_freq)</make>
+  
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Threshold</name>
+    <key>threshold</key>
+    <value>0.1</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Estimated_freq</name>
+    <key>estimated_freq</key>
+    <value>1000</value>
+    <type>float</type>
+  </param>
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

@@ -1,0 +1,19 @@
+<block>
+  <name>Streamer1</name>
+  <key>test1_streamer1</key>
+  <category>test1</category>
+  <import>import test1</import>
+  <make>test1.streamer1()</make>
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <nports>2</nports>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>float</type>
+    <nports>2</nports>
+  </source>
+</block>

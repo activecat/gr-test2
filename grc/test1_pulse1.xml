@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<block>
+  <name>pulse1</name>
+  <key>test1_pulse1</key>
+  <category>test1</category>
+  <import>import test1</import>
+  <make>test1.pulse1($samp_rate)</make>
+
+  <param>
+    <name>Sample Rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>float</type>
+  </param>
+
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  
+  <doc>
+This block send out 1ms pulses at every 5ms.
+The values of "1ms" and "5ms" are "hard-coded" into this block.  
+  </doc>
+</block>

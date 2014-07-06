@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<block>
+  <name>float_sink1</name>
+  <key>test1_float_sink1</key>
+  <category>test1</category>
+  <import>import test1</import>
+  <make>test1.float_sink1()</make>
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+</block>
